@@ -1,0 +1,22 @@
+SELECT * FROM Products
+
+SELECT UnitsInStock FROM Products
+WHERE UnitsInStock > 40
+
+SELECT * FROM Employees
+WHERE City = 'London'; 
+
+SELECT * FROM Orders 
+ORDER BY Freight DESC
+
+SELECT OrderID, Freight FROM Orders
+WHERE Freight > 60 AND  Freight < 200
+
+SELECT ProductName, CategoryID FROM Products
+WHERE CategoryID = 1;
+
+SELECT * FROM [Order Details]
+WHERE Discount > 0;
+
+SELECT * FROM Orders 
+WHERE CustomerID = 'BOTTM'
